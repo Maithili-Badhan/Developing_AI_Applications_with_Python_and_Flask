@@ -3,5 +3,5 @@ app = Flask(__name__)
 
 @app.route('/')
 
-def hello_world():
-    return "<b> My first Flask Application in action! </b>"
+def index():
+    return {"message": "Hello World"}
